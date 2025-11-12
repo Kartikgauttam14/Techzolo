@@ -1,0 +1,19 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\vikas\\Downloads\\tech-zolo\\scripts']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19928] using WatchFiles
+INFO:     Started server process [21876]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Current working directory: C:\Users\vikas\Downloads\tech-zolo\scripts
+sys.path: ['C:\\Users\\vikas\\Downloads\\tech-zolo\\scripts', 'C:\\Users\\vikas\\Downloads\\tech-zolo\\scripts', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\\python313.zip', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\\DLLs', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\\Lib', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0', 'C:\\Users\\vikas\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2032.0_x64__qbz5n2kfra8p0\\Lib\\site-packages']
+DATABASE_URL: postgresql://postgres:K@20011014@db.zsojqptmwdmvdlokhzir.supabase.co:5432/postgres
+Attempting to sign up user: comadystar@gmail.com
+User with email comadystar@gmail.com already exists.
+INFO:     127.0.0.1:54738 - "POST /auth/signup HTTP/1.1" 400 Bad Request
+Attempting to sign up user: comadystar@gmail.com
+User with email comadystar@gmail.com already exists.
+INFO:     127.0.0.1:52952 - "POST /auth/signup HTTP/1.1" 400 Bad Request
+Attempting to log in user: comadystar@gmail.com
+User comadystar@gmail.com found. Verifying password.
+Password verification failed for user: comadystar@gmail.com
+INFO:     127.0.0.1:62017 - "POST /auth/login HTTP/1.1" 401 Unauthorized

@@ -1,0 +1,27 @@
+# Tech Zolo Environment Variables Template
+# Copy these variables to your cPanel Node.js application environment variables
+# Replace all placeholder values with your actual credentials
+
+NODE_ENV=production
+NEXTAUTH_URL=https://yourdomain.com
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+DATABASE_URL=postgresql://username:password@localhost:5432/techzolo
+EMAIL_SERVER_HOST=smtp.gmail.com
+EMAIL_SERVER_PORT=587
+EMAIL_SERVER_SECURE=false
+EMAIL_SERVER_USER=your-email@gmail.com
+EMAIL_SERVER_PASSWORD=your-app-password
+EMAIL_FROM=your-email@gmail.com
+NEXT_PUBLIC_RAZORPAY_KEY_ID=your-razorpay-key-id
+RAZORPAY_KEY_SECRET=your-razorpay-key-secret
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your-emailjs-service-id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your-emailjs-template-id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your-emailjs-public-key
+
+# Notes:
+# - PORT will be automatically set by cPanel, don't override it
+# - Generate JWT_SECRET using: openssl rand -base64 32
+# - For Gmail, use App Password, not your regular password
+# - DATABASE_URL format: postgresql://user:pass@host:port/dbname
+# - If DATABASE_URL is not set, SQLite will be used automatically
+
