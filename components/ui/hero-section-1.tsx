@@ -5,6 +5,10 @@ import { Button } from '@/components/ui/button'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { cn } from '@/lib/utils'
 
+function HeroHeader() {
+    return null
+}
+
 const transitionVariants = {
     item: {
         hidden: {
@@ -66,7 +70,7 @@ export function HeroSection() {
                             }}
                             className="absolute inset-0 -z-20">
                             <img
-                                src=" `https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120` "
+                                src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg?updatedAt=1745733451120"
                                 alt="background"
                                 className="absolute inset-x-0 top-56 -z-20 hidden lg:top-32 dark:block"
                                 width="3276"
@@ -94,5 +98,27 @@ export function HeroSection() {
                                             </div>
                                         </div>
                                     </Link>
-                         
-                                    <h1
+                                    <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
+                                        Build amazing products
+                                    </h1>
+                                    <p className="mt-6 text-lg leading-8 text-muted-foreground">
+                                        Create beautiful, fast, and modern web applications with ease.
+                                    </p>
+                                    <div className="mt-10 flex items-center justify-center gap-x-6">
+                                        <Button size="lg" className="group">
+                                            Get started
+                                            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                                        </Button>
+                                        <Button variant="outline" size="lg">
+                                            Learn more
+                                        </Button>
+                                    </div>
+                                </AnimatedGroup>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </>
+    )
+}
